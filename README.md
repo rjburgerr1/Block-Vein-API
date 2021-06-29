@@ -1,20 +1,20 @@
 # Block-Vein-API
 API for computercraft written in lua. For use with turtles to mine veins of blocks.
 
-Welcome to the Block Vein API
-
-Why do I need this API?
+**Welcome to the Block Vein API**
+**
+Why do I need this API?**
 - If you require the functionality of having a turtle mine a continuous, unbroken vein of blocks.
 
-Potential uses of this API:
+**Potential uses of this API:**
 - In your mining programs
 - To farm trees
 - To harvest any naturally generated blocks (sand, dirt, etc...)
 
-What does this API effectively do?
+**What does this API effectively do?**
 - Compares blocks around a turtle against a given list of blocks to mine. If the blocks scanned matches the list of blocks to mine, the turtle will mine the blocks. Afterwards, the turtle will move into the space left by the mined blocks and check for more. After exhausting all mined paths, the turtle will return to place it started at.
 
-How can I take control of this API?
+**How can I take control of this API?**
 - The core function call to make:
   - .scanAdjBlocks(fuelCheck, inventoryCheck)
     - This function call includes two optional parameters.
@@ -40,7 +40,7 @@ Accepted Metadata = "minecraft:logs" or {"minecraft:logs"} or "log, leaves" or "
       - usually for when the turtle needs to refuel or when the turtle's inventory is full.
       - checkVeinBlocks is a boolean that should likely be false in a user's program
 
-How do I use this API?
+**How do I use this API?**
 In a turtle terminal run this command
 pastebin get bxsJUwq1 blockVein
 
