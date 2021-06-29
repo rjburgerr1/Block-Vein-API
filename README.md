@@ -1,9 +1,9 @@
-# Block-Vein-API
+**Welcome to the Block Vein API**
 API for computercraft written in lua. For use with turtles to mine veins of blocks.
 
-**Welcome to the Block Vein API**
-**
-Why do I need this API?**
+
+
+**Why do I need this API?**
 - If you require the functionality of having a turtle mine a continuous, unbroken vein of blocks.
 
 **Potential uses of this API:**
